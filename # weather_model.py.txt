@@ -1,0 +1,18 @@
+# weather_model.py
+# Weather Modeling using Quadratic Equation
+
+# Coefficients
+a = 1
+b = -6
+c = 8
+
+# Discriminant
+d = b**2 - 4*a*c
+
+# Check if roots are real
+if d >= 0:
+    root1 = (-b + d**0.5) / (2*a)
+    root2 = (-b - d**0.5) / (2*a)
+    print("Roots are:", root1, "and", root2)
+else:
+    print("No real roots")
